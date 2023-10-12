@@ -40,6 +40,7 @@ INSTALLED_APPS = [
 
     # Local Apps
     'users',
+    'Posts',
 ]
 
 AUTH_USER_MODEL = "users.CustomUser"
