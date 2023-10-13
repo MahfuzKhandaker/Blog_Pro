@@ -38,10 +38,17 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
 
+    # Third-party app
+    'pagedown.apps.PagedownConfig',
+    'crispy_forms',
+
     # Local Apps
     'users',
     'Posts',
 ]
+
+# django-crispy-forms
+CRISPY_TEMPLATE_PACK = 'bootstrap4'
 
 AUTH_USER_MODEL = "users.CustomUser"
 
